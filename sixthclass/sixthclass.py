@@ -27,35 +27,40 @@ if mark>=40:
         print(f"")  
 
 
-# name=input("Enter your name:")
-# max=int(input("Enter how many times to print your name:"))
-# count=0
-# while count<max:
-#     print(name)
-#     count+=1
+
+#LOOPS:-
 
 
-# name = str(input('Enter your name: '))
-# counts = int(input("Enter the number of turns you want to repaet your name: "))
-# count = 0
-# while(count<counts):
-#     print(f"{count+1} {name}")
-#     count = count+1
-
-# count = 90
-# while (count>counts):
-#     print(name)
-#     count-=1
+#WHILE LOOP:-
+name=input("Enter your name:")
+max=int(input("Enter how many times to print your name:"))
+count=0
+while count<max:
+    print(name)
+    count+=1
 
 
+name = str(input('Enter your name: '))
+counts = int(input("Enter the number of turns you want to repaet your name: "))
+count = 0
+while(count<counts):
+    print(f"{count+1} {name}")
+    count = count+1
+
+count = 90
+while (count>counts):
+    print(name)
+    count-=1
 
 
-# # name=input("Enter your name:")
-# start = int(input("Enter the start of the loop: "))
-# stop=int(input("Enter how many times to print your name:"))
-# step = int(input("Enter how many terms you want to skip: "))
-# # for i in range(start,stop,step):
-# #     print(name)
+
+#FOR LOOP:-
+name=input("Enter your name:")
+start = int(input("Enter the start of the loop: "))
+stop=int(input("Enter how many times to print your name:"))
+step = int(input("Enter how many terms you want to skip: "))
+for i in range(start,stop,step):
+    print(name)
 
 start = int(input("Enter the start of the loop: "))
 stop=int(input("Enter how many times to print your name:"))
