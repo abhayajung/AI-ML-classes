@@ -101,41 +101,41 @@ list2.extend([34, 45, 56, 67])
 # print(list2)
 
 list2 = [12,45,67,89,56,2]
-list2.sort()
+list2.sort()#arranges in ascending order
 list2.sort(reverse=True)#arranges in descending order
 print(list2)
 
 
 # write a program to ask the marks of physics of 5 student and append that marks in the list
 
-# physics_marks = []
-# count = 0
+physics_marks = []
+count = 0
 
-# while count < 5:
-#     mark = float(input("Enter the marks: "))
-#     physics_marks.append(mark)
-#     count = count+1
-# print(physics_marks)
+while count < 5:
+    mark = float(input("Enter the marks: "))
+    physics_marks.append(mark)
+    count = count+1
+print(physics_marks)
 
-#explore all the remaining methods
+#Explore all the remaining methods
 
-#tuple
+#TUPLE#
 
-#tuple is immutable IMMUTABLE
+#tuple is IMMUTABLE
 
-# tuple_1 = (1,6,5,7,3,1,3,42,6,7,1)#value change garna sakkina
-# print(type(tuple_1))
+tuple_1 = (1,6,5,7,3,1,3,42,6,7,1)#value change garna sakkina
+print(type(tuple_1))
 
-# tuple_1[2] = 16
-# print(tuple_1)
+tuple_1[2] = 16
+print(tuple_1)#not possible
 
 
-# tuple_1.append(34)
-# print(tuple_1)
+tuple_1.append(34)
+print(tuple_1)
 
-# print(tuple_1[0])
+print(tuple_1[0])
 
-# print(tuple_1.count(1))
+print(tuple_1.count(1))
 
 # packing and unpakcing tuple
 
