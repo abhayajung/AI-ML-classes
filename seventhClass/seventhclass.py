@@ -137,38 +137,38 @@ print(tuple_1[0])
 
 print(tuple_1.count(1))
 
-# packing and unpakcing tuple
+#PACKING AND UNPACKING#
 
-# unpacking 
-# my_tuple = (45,56,78)
-# a, b, c = my_tuple
-# print(a)
-# print(b)
-# print(c)
+#UNPACKING#
+my_tuple = (45,56,78)
+a, b, c = my_tuple
+print(a)
+print(b)
+print(c)
 
-#packing
-# a=56
-# b=78
-# c=78
+#Packing#
+a=56
+b=78
+c=78
 
-# my_tuple = a, b, c
-# print(my_tuple)
+my_tuple = a, b, c
+print(my_tuple)
 
-# Concatenation in tuple
-# tuple_1 = (3,4,5,6)
-# tuple2 = (45,67,89,23)
-# print(tuple_1 + tuple2)
+# Concatenation in tuple #
+tuple_1 = (3,4,5,6)
+tuple2 = (45,67,89,23)
+print(tuple_1 + tuple2)
 
 
-#SET
+#SET#
 
-# set1 = {}#not possible
-# set1 = set()
-# print(type(set1))
+set1 = {}#not possible
+set1 = set()
+print(type(set1))
 
-# set1 = {1,3,5,6,4}
-# print(set1)
-# print(type(set1))
+set1 = {1,3,5,6,4}
+print(set1)
+print(type(set1))
 
 # list1=[23,23,45,67,89]
 # tuple1=(23,23,45,67,89)
