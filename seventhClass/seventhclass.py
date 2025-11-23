@@ -178,29 +178,29 @@ print(type(set1))
 # print(set1)#indexing not possible
 
 set1 = {1, 3, 4 , 5}
-# set2 = {2, 4, 5, 6}
+set2 = {2, 4, 5, 6}
 
-# #union
-# set3 = set1.union(set2)
-# print(set3)
-# set4 = set1.intersection(set2)
-# print(set4)
-
+#UNION#
+set3 = set1.union(set2)
+print(set3)
+#INTERSECTION#
+set4 = set1.intersection(set2)
+print(set4)
 
 # difference
 
-#to add the element in the set
+#to add the element in the set#
 
-# set1.add(45)
-# print(set1)
+set1.add(45)
+print(set1)
 
-# set1.remove(45)
-# print(set1)
+set1.remove(45)
+print(set1)
 
-# set2 = {23,45,67}
-# set2.discard(100)
-# # set2.remove(100)
-# print(set2)
+set2 = {23,45,67}
+set2.discard(100)
+set2.remove(100)
+print(set2)
 
 
 #DICTIONARY
@@ -210,48 +210,48 @@ set1 = {1, 3, 4 , 5}
 
 # data are structured in key value pair
 # key = value
-#dixtionary book -> word and its corresponding meaning
+#dictionary book -> word and its corresponding meaning
 
-# dict1 = {
-#     "Name" : "Sayapatri Group",
-#     "Adress" : "Biratnagar",
-#     "Work" : "IT company"
-# }
-# print(dict1)
+dict1 = {
+    "Name" : "Sayapatri Group",
+    "Adress" : "Biratnagar",
+    "Work" : "IT company"
+}
+print(dict1)
 
-# print(dict1["Name"])
-# print(dict1["Adress"])
+print(dict1["Name"])
+print(dict1["Adress"])
 
-# #methods
+#METHODS in dictionary#
 
-# # print(dict1.keys())
-# # print(dict1.values())
-# # print(dict1.items())
+print(dict1.keys())
+print(dict1.values())
+print(dict1.items())
 
-# # nested dixtionary
-# #dictionary inside dictionary
-# student = {
-#     "student1":{
-#         "Name":"Name of student1",
-#         "section":"sun",
-#         "roll":"345",
-#         "marks":[34,56,77]
-#     },
-#     "student2":{
-#         "Name":"Name of student2",
-#         "section":"moon",
-#         "roll":"567",
-#         "marks":[34,56,77]
-#     },
-#     "student3":{
-#         "Name":"Name of student23",
-#         "section":"moon",
-#         "roll":"567",
-#         "marks":[34,56,77]
-#     },
+# NESTED DICTIONARY #
+#dictionary inside dictionary
+student = {
+    "student1":{
+        "Name":"Name of student1",
+        "section":"sun",
+        "roll":"345",
+        "marks":[34,56,77]
+    },
+    "student2":{
+        "Name":"Name of student2",
+        "section":"moon",
+        "roll":"567",
+        "marks":[34,56,77]
+    },
+    "student3":{
+        "Name":"Name of student23",
+        "section":"moon",
+        "roll":"567",
+        "marks":[34,56,77]
+    },
 
-# }
-# print(student)
+}
+print(student)
 
 
 student = {
@@ -263,23 +263,26 @@ student = {
 }
 # print(student)
 
-# # iterate through the keys
+# Iterate through the keys #
 
-# for i in student.keys():
-#     print(i)
+for i in student.keys():
+    print(i)
 
-# itertion throguh values
-# for i in student.values():
-#     print(i)
+# Itertion throguh values #
+for i in student.values():
+    print(i)
 
-#iterate through key values pair
+# Iterate through key values pair #
 
-# for i,j in student.items():
-#     print(f"{i}={j}")
+for i in student.items():
+    print(i)
 
-# print(student)
+for i,j in student.items():
+    print(f"{i}={j}")
 
-# TO update the value of the key
+print(student)
+
+# TO update the value of the key #
 
 # student["section"] = "moon"
 # print(student)
