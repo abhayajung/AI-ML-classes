@@ -77,3 +77,64 @@ print(f"Sum: {sum}")
 print(f"product : {product}")
 print(f"difference : {difference}")
 print(f"division : {division}")
+
+
+
+
+# def fun2(name,age):   #name,age are parameters
+#     print(f"Hello {name}")
+#     print(f"You are {age} years old")
+# fun2("Krishna",30)  #argument passing
+
+
+
+# a=int(input("Enter the first number:"))
+# b=int(input("Enter the second number:"))
+# def sum(a,b):
+#     print(f"Sum is {a+b}")
+# sum(a,b)
+
+
+# Create a multiple function for addition, subtraction, 
+# multiplication and division and ask the user to perform 
+# which operation to be done and do the task as per user input
+
+# def addition(a,b):
+#     print(f"Addition is {a+b}")
+# def subtraction(a,b):
+#     print(f"Subtraction is {a-b}")
+# def multiplication(a,b):
+#     print(f"Multiplication is {a*b}")
+# def division(a,b):
+#     print(f"Division is {a/b}")
+# a = input("Enter which operation should be done:")
+
+
+
+# def sum_number(a,b):
+#     return a+b
+# # print(sum_number(23,45))
+# sum_result=sum_number(23,45)
+# print(sum_result)
+
+
+# a = int(input("Enter first number:"))
+# b = int(input("Enter second number:"))
+# def sum(a,b):
+#     return a+b
+# def difference(a,b):
+#     return a-b
+# def product(a,b):
+#     return a*b
+# def division(a,b):
+#     return a/b
+# sum=sum(a,b)
+# difference=difference(a,b)
+# product=product(a,b)
+# division=division(a,b)
+
+def calculate(a,b):
+    return a+b,a-b,a*b,a/b
+result=calculate(5,2)
+sum,difference,product,division=result
+print(f"Sum is {sum}\nDifference is {difference}\nProduct is {product}\nDivision is {division}")
