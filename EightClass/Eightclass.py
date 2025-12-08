@@ -7,7 +7,7 @@ func1()
 
 
  
-#parameters in function
+#parameters in functio
 a = int(input("Enter a number: "))
 b = int(input("Enter a number: "))
 
